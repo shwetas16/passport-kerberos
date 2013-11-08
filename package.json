@@ -1,0 +1,20 @@
+{
+  "name": "passport-kerberos",
+  "version": "0.0.1",
+  "description": "Kerberos 5 username and password authentication strategy for Passport.",
+  "keywords": ["passport", "kerberos", "krb5", "auth", "authn", "authentication"],
+  "repository": {
+    "type": "git",
+    "url": "git:////github.com/joshuah/passport-kerberos.git"
+  },
+  "author": {
+    "name": "Joshua Heiks",
+    "email": "joshuaheiks@gmail.com"
+  },
+  "main": "./lib/passport-kerberos",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport": "~0.1.1"
+  },
+  "engines": { "node": ">= 0.10.0" }
+}
