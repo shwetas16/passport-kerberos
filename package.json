@@ -2,7 +2,14 @@
   "name": "passport-kerberos",
   "version": "0.0.1",
   "description": "Kerberos 5 username and password authentication strategy for Passport.",
-  "keywords": ["passport", "kerberos", "krb5", "auth", "authn", "authentication"],
+  "keywords": [
+    "passport",
+    "kerberos",
+    "krb5",
+    "auth",
+    "authn",
+    "authentication"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/joshuah/passport-kerberos.git"
@@ -13,9 +20,11 @@
   },
   "main": "./lib/passport-kerberos",
   "dependencies": {
-    "pkginfo": "0.2.x",
+    "node-auth-kerberos": "^1.0.0",
     "passport": "~0.1.1",
-    "node-krb5": "*"
+    "pkginfo": "0.2.x"
   },
-  "engines": { "node": ">= 0.10.0" }
+  "engines": {
+    "node": ">= 0.10.0"
+  }
 }
